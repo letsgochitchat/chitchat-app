@@ -1,10 +1,2 @@
-addReviewers: true
+addReviewers: false
 addAssignees: author
-
-reviewers:
-  - seokkamoni
-  - kimjh11130
-  - arkk200
-  - okinawaa
-
-numberOfReviewers: 0
