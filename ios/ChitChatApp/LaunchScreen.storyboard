@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
@@ -13,18 +13,24 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2L7-lW-Lb2">
-                                <rect key="frame" x="100.99999999999999" y="356.66666666666669" width="170.66666666666663" height="99"/>
+                                <rect key="frame" x="76" y="374" width="260" height="151"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="6n4-yJ-2DS"/>
+                                    <constraint firstAttribute="height" constant="151" id="Wez-l0-KRA"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="0.12156862745098039" green="0.12941176470588234" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0N8-z4-ApA"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="33O-jm-80q"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3yz-Sz-2b7"/>
+                            <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="48H-Gv-gz7"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IzZ-zz-x0C"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RUA-9B-3NN"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="1.47" id="WRk-av-W65"/>
@@ -33,10 +39,12 @@
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="b0L-cj-Tcj"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bLa-8g-5be"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="bhi-CX-C88"/>
+                            <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="evv-Q1-XAz"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-1.05" id="hJS-bw-c3I"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mWl-dF-gUY"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="pao-m7-hGD"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qcE-wd-vMz"/>
+                            <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="raR-C9-QQd"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="vLx-4S-Mfy"/>
                             <constraint firstItem="2L7-lW-Lb2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="x1W-nT-dv8"/>
                         </constraints>
@@ -48,6 +56,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="SplashIcon" width="170.66667175292969" height="99"/>
+        <image name="SplashIcon" width="128" height="74"/>
     </resources>
 </document>
